@@ -15,7 +15,7 @@ void thresh_callback(int,void*);
 
 int main()
 {
-    src = imread("../../../dataset/5000.jpg");
+    src = imread("../dataset/5000.jpg");
     if(src.empty())
         return -1;
     cvtColor(src,src_gray,COLOR_BGR2GRAY);
